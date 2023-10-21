@@ -13,7 +13,7 @@ const Navbar = ({ hasScrolled }) => {
 
   const downloadWallet = () => {
     window.open(
-      '',
+      'https://dinowallet.netlify.app/',
       '_blank' // <- This is what makes it open in a new window.
     );
   };
